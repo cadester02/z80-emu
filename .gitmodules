@@ -1,0 +1,3 @@
+[submodule "tests/data/z80"]
+	path = tests/data/z80
+	url = https://github.com/SingleStepTests/z80
