@@ -108,6 +108,11 @@ macro_rules! opcode_tests {
 
 opcode_tests! {
     nop       => "00",
+    ld_bc_nn  => "01",
+    ld_bc_a   => "02",
+    inc_bc    => "03",
+    inc_b     => "04",
+    dec_b     => "05",
     add_a_b   => "80",
     add_a_c   => "81",
     add_a_d   => "82",
